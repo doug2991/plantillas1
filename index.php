@@ -1,5 +1,5 @@
 <!DOCTYPE>
-<<<<<<< HEAD
+
 <div class="container">
 
 
@@ -47,4 +47,3 @@
 </BODY>
 </div>
 
->>>>>>> 276e1d403adbb387d2212720787f33dbedc2c9f0
