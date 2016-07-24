@@ -46,14 +46,5 @@
 
 </BODY>
 </div>
-=======
-<HEAD>
-<TITLE>Hedoku prueba!</TITLE>
-</HEAD>
-<BODY>
-	<div>
-		<h1>Página de Prueba</h1>
-		<h1>Erick Maradiaga estuvo aquí</h1>
-	</div>
-</BODY>
+
 >>>>>>> 276e1d403adbb387d2212720787f33dbedc2c9f0
