@@ -65,9 +65,7 @@
       <input type="submit" value="Siguiente"></input>
       </form>
 
-      <div class="row">
-        <h4>Lista de Valores a Insertar en la plantilla: AGREGARLA CON AJAX NO OLVIDAR</h4>
-      </div>
+      
     </div>
   </div>
 </body>
