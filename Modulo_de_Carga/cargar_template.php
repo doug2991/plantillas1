@@ -11,6 +11,7 @@
           <form action= "Modulo_de_Carga/file.php" method="post" enctype="multipart/form-data">
               <fildset class="form-group">
                       <label class="btn btn-default btn-file">File Input
+                      <input type = "hidden" name="contador" value= "0">
                       <input type = "hidden" name="MAX_FILE_SIZE" value= "30000">
                       <input type='file' name='a' accept="text/html"></input>
                       </label>

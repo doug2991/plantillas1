@@ -1,5 +1,18 @@
   <?php
+  //$array;
+  //$contador = $_POST['contador'];
+
+  /*if ($contador) {
+    # code...
+    $array = array();
+  }else {
+    # code...
+    $stringArray = $_POST['arregloJV'];
+    $array = explode(',',$stringArray);
+  }*/
+
   $archivo = (isset($_FILES['a'])) ? $_FILES['a'] : null;
+
 
   if ($archivo) {
 
@@ -20,19 +33,41 @@
 
      }
 
-  }else {
+  }
+  else {
 
     # code...
     echo "No se pudo cargar el Archivo.\n";
   }
 ?>
+<!DOCTYPE>
+<head>
+  <script src="../js/jquery-2.1.4.min.js" type="text/javascript"></script>
+  <script src="../js/bootstrap.js" type="text/javascript"></script>
+  <script type="text/javascript" src="../js/funciones.js" ></script>
+</head>
 
-<div class="container">
-  <h3>Este es el Archivo HTML que se inserto:</h3>
-  <form action="escanear_archivo.php" method="post">
-    <input type="text" placeholder="Inserte el Texto que desea introducir..." name="texto_de_reemplazo"></input>
-  <?php echo '<input type="hidden" name = "dir" value="'.htmlspecialchars($ruta_destino_archivo).'" />'."\n";?>
-  <input type="submit" value="Siguiente"></input>
-  </form>
+<body>
+  <div class="container">
+    <h3>Este es el Archivo HTML que se inserto:</h3>
+    <div class="row">
 
-</div>
+    </div>
+    <div class="row">
+
+    </div>
+    <div class="row">
+      <form action="escanear_archivo.php" method="post">
+        <input type="text" id="nombre" placeholder="Insertar Valores"></input>
+        <input type="hidden" id="cadena" value="" name="resultado"></input>
+        <button type="button" id="addArray">Add</button>
+      <?php echo '<input type="hidden" name = "dir" value="'.htmlspecialchars($ruta_destino_archivo).'" />'."\n";?>
+      <input type="submit" value="Siguiente"></input>
+      </form>
+
+      <div class="row">
+        <h4>Lista de Valores a Insertar en la plantilla: AGREGARLA CON AJAX NO OLVIDAR</h4>
+      </div>
+    </div>
+  </div>
+</body>
