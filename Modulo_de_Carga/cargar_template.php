@@ -2,27 +2,35 @@
   <div class="col-md-10">
     <div class="row" id="section1">
       <div>
-        <h1>Load a Template (format HTML):</h1>
+        <h1>Load the HTML Template:</h1>
       </div>
     </div>
   </div>
   <div class="col-md-10">
     <div class="row" id="section2">
           <form action= "Modulo_de_Carga/file.php" method="post" enctype="multipart/form-data">
+              <fildset class="form-group">
+                      <label class="btn btn-default btn-file">File Input
+                      <input type = "hidden" name="MAX_FILE_SIZE" value= "30000">
+                      <input type='file' name='a' accept="text/html"></input>
+                      </label>
+              </fieldset>
               <div class="container">
-                <fildset class="form-group">
+                <div class="row">
+                  <input type="submit"></input>
+                </div>
+              </div>
+
+          </form>
+          <!--<fildset class="form-group">
                   <label class="btn btn-default btn-file">File Input
                   <input type = "hidden" name="MAX_FILE_SIZE" value= "30000">
-                  <input type="file" accept="text/html" name="archivo" id="archivo"></input></label>
-                </fieldset>
-              </div>
-              <div class="row" style="padding:30px">
-              </div>
-              <div class="row">
+                  <input type='file' name='a' id="ar"></input></label>
+                  <div class="row">
+                      <input type="button" id="loadFile" value="Load File"></input>
+                  </div>
 
-                <input type="submit" class="btn btn-primary" value="File Scan"></input>
-              </div>
-          </form>
+          </fieldset>-->
     </div>
   </div>
 </div>
