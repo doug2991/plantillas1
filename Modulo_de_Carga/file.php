@@ -51,7 +51,8 @@
   <div class="container">
     <h3>Este es el Archivo HTML que se inserto:</h3>
     <div class="row">
-
+    <h4><p>Inserte los valores para reemplazar las variables siguiendo el orden de aparición de arriba a abajo.</p></h4>
+   
     </div>
     <div class="row">
 
